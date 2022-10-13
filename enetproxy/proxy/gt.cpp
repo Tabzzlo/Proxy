@@ -9,13 +9,13 @@
 #include <vector>
 
 std::string gt::version = "4.03";
-std::string gt::pofversion = "0.1";
+std::string gt::pofversion = "4.03";
 std::string gt::pofstatus = "Updated";
 std::string gt::flag = "tr";
-bool gt::resolving_uid2 = false;
-bool gt::connecting = false;
-bool gt::in_game = false;
-bool gt::ghost = false;
+bool gt::resolving_uid2 = true;
+bool gt::connecting = true;
+bool gt::in_game = true;
+bool gt::ghost = true;
 
 using namespace std;
 
