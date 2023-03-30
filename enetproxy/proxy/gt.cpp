@@ -8,13 +8,13 @@
 #include <sstream>
 #include <vector>
 
-std::string gt::version = "4.03";
-std::string gt::pofversion = "4.03";
+std::string gt::version = "4.19";
+std::string gt::pofversion = "4.19";
 std::string gt::pofstatus = "Connecting";
 std::string gt::flag = "tr";
-bool gt::resolving_uid2 = true;
-bool gt::connecting = true;
-bool gt::in_game = true;
+bool gt::resolving_uid2 = false;
+bool gt::connecting = false;
+bool gt::in_game = false;
 bool gt::ghost = false;
 
 using namespace std;
